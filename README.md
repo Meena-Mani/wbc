@@ -2,7 +2,7 @@
 Projects (mostly deeplearning) related to the white blood cell [dataset](https://github.com/dhruvp/wbc-classification/tree/master/images) from [Athelas](https://athelas.com/).
 
 ## Data
-The *train data* consists of 10,000 images divided into four balanced WBC classes. The images were originally drawn from 352 dyed WBC images and are the result of the following pre-processing steps:
+The **train data** consists of 10,000 images divided into four balanced WBC classes. The images were originally drawn from 352 dyed WBC images and are the result of the following pre-processing steps:
 
 - downsample the images from 640x480 to 160x120
 - image augmentation (flips, rotations, and shears)
@@ -11,7 +11,7 @@ The *train data* consists of 10,000 images divided into four balanced WBC classe
 
 You can read more about the data pre-processing [here](https://blog.athelas.com/classifying-white-blood-cells-with-convolutional-neural-networks-2ca6da239331).   
 
-The *test data* consists of 71 images (20% of the original 352 images was set aside). The images have not been augmented; the original distribution has also been preserved so this is an imbalanced dataset.
+The **test data** consists of 71 images (20% of the original 352 images was set aside). The images have not been augmented; the original distribution has also been preserved so this is an imbalanced dataset.
 
 
 ## [Transfer Learning Project](https://github.com/Meena-Mani/wbc/blob/master/wbc_transferlearning_binary.ipynb)
